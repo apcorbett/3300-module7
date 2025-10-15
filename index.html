@@ -148,6 +148,22 @@
           0.524, it was nowhere near as strong as the correlation between the
           two sales variables.
         </p>
+        <figure>
+          <img
+            src=" images/1-scores_boxplot.png"
+            alt="Boxplots comparing meta score
+            and user score"
+          />
+          <figcaption>Figure 1 Review Scores Boxplots.</figcaption>
+        </figure>
+        <figure>
+          <img
+            src=" images/2-review_scores_histogram.png"
+            alt="Histograms comparing meta score
+            and user score"
+          />
+          <figcaption>Figure 2 Review Score Histograms</figcaption>
+        </figure>
         <p>
           I initially thought this weaker correlation might be due to
           differences in rating scales between the two groups. To confirm this
@@ -199,6 +215,17 @@
           sales. To visualize this, I created a scatterplot between the two
           variables, shown in Figure 3.
         </p>
+        <figure>
+          <img
+            src=" images/3-total_sales_number_games_released.jpg"
+            alt="Scatterplot of number of games
+            released and total sales"
+          />
+          <figcaption>
+            Figure 3 Scatterplot of the number of games by a publisher and their
+            total sales
+          </figcaption>
+        </figure>
         <p>
           This correlation does not apply to the number of games released and
           the publisher's average meta score. The correlation coefficient
@@ -216,6 +243,17 @@
           is also visible in Figure 4, a scatterplot comparing the number of
           games released and meta score.
         </p>
+        <figure>
+          <img
+            src=" images/4-metascore_number_games_released.jpg"
+            alt=" Scatterplot of Number of Games and 
+            Meta Score"
+          />
+          <figcaption>
+            Figure 4 Scatterplot of the number of games by a publisher and meta
+            score
+          </figcaption>
+        </figure>
         <p>
           I then compared the top ten game publishers by North American sales
           and by total sales over the past ten years. I wanted to see if the
@@ -238,13 +276,23 @@
           to the first day of each release month.
         </p>
         <p>
-          To start the analysis, I wanted to see if the number of games
-          developed has increased over time. The correlation coefficient between
-          release date and number of games released was 0.533, indicating a
-          moderate relationship. I then plotted the number of games released
-          over time and compared it to total game sales using the patchwork
-          package. The scatterplot is shown in Figure 5.
+          To start my analysis, I wanted to see if the number of games developed
+          has increased over time. The correlation coefficient between release
+          date and number of games released was 0.533, indicating a moderate
+          relationship. I then plotted the number of games released over time
+          and compared it to total game sales using the patchwork package. The
+          scatterplot is shown in Figure 5.
         </p>
+        <figure>
+          <img
+            src="images/5-number_of_games_released_and_total_sales_by_month.png"
+            alt="Scatterplots of Number of games
+            and total sales by release date"
+          />
+          <figcaption>
+            Figure 5 Number of Games Released and Total Sales by Month
+          </figcaption>
+        </figure>
         <p>
           The point at the end should be ignored, as it includes two games yet
           to be released. The outlier in 2020 should also be disregarded because
@@ -267,6 +315,14 @@
           between North American sales and release date was 0.229. Figure 6
           compares sales trends to release dates.
         </p>
+        <figure>
+          <img
+            src="images/6-total_sales_by_release_date.jpg"
+            alt="Scatter plot of North-American and Total Sales by 
+            release date"
+          />
+          <figcaption>Figure 6 Total Sales by Release Date</figcaption>
+        </figure>
         <p>
           The trend of frequent outliers appears more prominent in total sales
           than in North American sales. Using slice_max on both total and North
@@ -277,6 +333,14 @@
           sales increased throughout the 2000s, review scores did not follow the
           same pattern.
         </p>
+        <figure>
+          <img
+            src="images/7-review_scores_by_release_date.jpg"
+            alt="Scatterplot of meta score and user score
+            by release date"
+          />
+          <figcaption>Figure 7 Review Scores by Release Date</figcaption>
+        </figure>
         <p>
           Figure 7 shows that review scores dropped sharply beginning in 2000.
           Meta scores declined much more dramatically than user scores during
